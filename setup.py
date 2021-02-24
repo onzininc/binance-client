@@ -1,4 +1,4 @@
-from setuptools import setup, find_namespace_packages, find_packages
+from setuptools import setup, find_packages
 
 setup(
     name='binance-client',
@@ -6,7 +6,7 @@ setup(
     package_dir={
         '': 'src',
     },
-    packages=['onzin'],
+    packages=find_packages(),
     include_package_data=True,
     install_requires=[],
 )
