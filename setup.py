@@ -4,7 +4,7 @@ setup(
     name='binance-client',
     version='0.0',
     package_dir={
-        'src',
+        '': 'src',
     },
     packages=['binance'],
     include_package_data=True,
