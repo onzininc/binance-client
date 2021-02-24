@@ -6,7 +6,7 @@ setup(
     package_dir={
         '': 'src',
     },
-    packages=['binance'],
+    packages=['onzin'],
     include_package_data=True,
     install_requires=[],
 )
